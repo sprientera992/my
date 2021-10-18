@@ -21,7 +21,7 @@ sudo cd /tmp/bestmp
 sudo curl --output bigfix_client_linux.zip "https://emirelay.blob.core.windows.net/agent/bigfix_client_linux.zip?si=ReadOnlyforBUs&sv=2019-10-10&sr=c&sig=VJGSM%2FM5zR8OcLFzGomHB0KqxHBp6syEGkxvcd%2BKtdE%3D"
 sudo unzip bigfix_client_linux.zip
 sudo chmod a+x install_azure.sh
-sudo ./install_azure.sh $FQDN
+sudo ./install_azure.sh $1
 sudo sleep 20s
 
 
